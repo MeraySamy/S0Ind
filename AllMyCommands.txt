@@ -1,0 +1,23 @@
+git init 
+git add GettingStarted.txt
+git add GitBranching.txt
+git add DistributedGit.txt
+git rm --cached GitBranching.txt
+git add GitBranching.txt
+git commit -m "Creating text files"
+git remote add origin https://github.com/MeraySamy/MyRepository.git
+git push -u origin master
+touch README.md
+vim README.md
+git branch Readme
+git checkout Readme
+git add README.md
+git commit -m "Readme branch with a README file"
+git checkout master
+git merge Readme
+git add AllMyCommands.txt
+
+
+
+
+
